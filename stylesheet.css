@@ -1,9 +1,12 @@
 h1 {
     text-align: center;
+    background-color: rgba(12, 51, 66, 0.473);
+    color: white;
 }
 
 body {
     padding: 4vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 ul {
@@ -11,7 +14,11 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(27, 92, 128);
+    background-color: rgb(8, 121, 177);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 li {
@@ -28,4 +35,8 @@ li a {
 
 li a:hover {
     background-color: black;
-  }
+}
+
+footer {
+    background-color: rgba(70, 93, 199, 0.514);
+}
