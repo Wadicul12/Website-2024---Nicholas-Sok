@@ -1,9 +1,9 @@
 .main_title {
     margin: 6vw;
     text-align: center;
-    background-color: rgba(12, 51, 66, 0.473);
+    background-color: rgb(8, 121, 177) ;
     color: white;
-    border-radius: 20px;
+    border-radius: 1000vw;
     height: 8vw;
     border-style: solid;
     border-color: black;
@@ -14,6 +14,7 @@
 
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(98, 14, 109);
 }
 
 .main_text{
@@ -55,14 +56,12 @@ footer {
     color: white;
 }
 
-.diverse_family {
-    float: right;
+.introduction_to_diversity {
+    display: flex;
 }
 
-.diverse_logo {
-    width: 20px;
-    height: 40px;
-    float: left;
+.diversity_advantages {
+    display: flex;
 }
 
 h2 {

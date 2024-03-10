@@ -13,3 +13,5 @@ Biased tech can make unfairness and inequality even worse in our society.
 To fix these problems, we need to make sure the IT world looks more like the real world. That means doing things like training people on diversity and inclusion, 
 reaching out to groups that don't have as much representation, and making workplaces more welcoming to everyone. When we have more diversity in the IT world, 
 we can make tech that works better for everyone and helps make the world a fairer place.
+
+USED
