@@ -59,6 +59,12 @@ footer {
     float: right;
 }
 
+.diverse_logo {
+    width: 20px;
+    height: 40px;
+    float: left;
+}
+
 h2 {
     background-color: rgb(52, 118, 177);
     border-color: black;
