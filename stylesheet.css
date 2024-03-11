@@ -1,26 +1,24 @@
 .main_title {
-    margin: 6vw;
+    margin-top: 5vw;
     text-align: center;
     background-color: rgb(8, 121, 177) ;
     color: white;
-    border-radius: 1000vw;
+    /*border-radius: 1000vw;
     height: 8vw;
     border-style: solid;
     border-color: black;
-    border-width: thick;
-    top: -4vw;
+    border-width: thick;*/
+    height: 8vw;
+    width: 100%;
     font-size: x-large;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(50,50,150,1) 40%, rgba(0,212,255,1) 100%);
 }
 
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: rgb(98, 14, 109);
 }
-
-.main_text{
-    padding: 2vw;
-}
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -52,7 +50,7 @@ li a:hover {
 footer {
     background-color: rgb(8, 121, 177);
     width: 100%;
-    height: 10w;
+    height: 10vw;
     color: white;
 }
 
@@ -71,6 +69,10 @@ h2 {
     border-width: thin;
     width: min-content;
     color: white;
+}
+
+.paragraphs {
+    padding: 2vw;
 }
 
 p {
