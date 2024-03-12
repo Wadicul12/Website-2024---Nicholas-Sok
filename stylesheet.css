@@ -1,7 +1,10 @@
 .main_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     background-color: rgb(8, 121, 177) ;
-    margin-top: -2.5vw;
+    margin-top: 2vw;
     color: white;
     height: 20vw;
     width: 100%;
@@ -10,9 +13,13 @@
     background: linear-gradient(90deg, hsla(272, 78%, 16%, 1) 0%, hsla(17, 60%, 52%, 1) 100%);
 }
 
+.main_title {
+    text-shadow: 2px 2px black;
+}
+
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: rgb(255,255,240);
+    background-color: #fffff0;
     margin: 0;
 }
 
@@ -61,12 +68,11 @@ footer {
 }
 
 h2 {
-    background-color: rgb(133,105,83);
     border-color: black;
     border-style: groove;
     border-width: thin;
     width: min-content;
-    color: white;
+    color: black;
 }   
 
 .paragraphs {
@@ -74,9 +80,10 @@ h2 {
     border-color: black;
     border-style: groove;
     border-width: thin;
-    color: white;
+    color: black;
 }
 
-p {
-    background-color: rgb(133,105,83);
+li.hvr-sink {
+    display: block;
 }
+
