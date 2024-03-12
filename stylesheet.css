@@ -1,4 +1,5 @@
 .main_title {
+    text-shadow: 2px 2px black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,10 +12,6 @@
     font-size: 4vw;
     background: hsla(272, 78%, 16%, 1);
     background: linear-gradient(90deg, hsla(272, 78%, 16%, 1) 0%, hsla(17, 60%, 52%, 1) 100%);
-}
-
-.main_title {
-    text-shadow: 2px 2px black;
 }
 
 body {
@@ -52,6 +49,7 @@ li a:hover {
 }
 
 footer {
+    padding: 1vw;
     background-color: black;
     width: 100%;
     margin-top: -2vw;
@@ -68,6 +66,8 @@ footer {
 }
 
 h2 {
+    padding: 2vw;
+    border-radius: 10px;
     border-color: black;
     border-style: groove;
     border-width: thin;
@@ -77,10 +77,10 @@ h2 {
 
 .paragraphs {
     padding: 2vw;
+    border-radius: 10px;
     border-color: black;
     border-style: groove;
     border-width: thin;
-    color: black;
 }
 
 li.hvr-sink {
