@@ -81,26 +81,32 @@ h2 {
 
 .ai_inclusivity {
     padding: 2vw;
+    display: flex;
 }
 
 .women_education_barriers {
     padding: 2vw;
+    display: flex;
 }
 
 .women_industry_barriers {
     padding: 2vw;
+    display: flex;
 }
 
 .women_strategies {
     padding: 2vw;
+    display: flex;
 }
 
 .careers_in_it {
     padding: 2vw;
+    display: flex;
 }
 
 .kaitiakitanga {
     padding: 2vw;
+    display: flex;
 }
 
 p.container {
