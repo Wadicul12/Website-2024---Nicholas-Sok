@@ -15,8 +15,8 @@
 }
 
 body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #fffff0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: hsl(60, 100%, 96%);
     margin: 0;
 }
 
@@ -57,6 +57,7 @@ footer {
     color: white;
 }
 
+
 .introduction_to_diversity {
     display: flex;
 }
@@ -75,8 +76,16 @@ h2 {
     color: black;
 }   
 
-.paragraphs {
+.main_paragraphs {
     padding: 2vw;
+}
+
+p.container {
+    column-gap: 20px;
+}
+
+.paragraphs {
+    padding: 1vw;
     border-radius: 10px;
     border-color: black;
     border-style: groove;
