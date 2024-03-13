@@ -64,7 +64,7 @@ footer {
     display: flex;
 }
 
-.diversity_advantages {
+.image_and_paragraph_gap{
     gap: 4vw;
     padding: 6vw;
     display: flex;
@@ -79,42 +79,6 @@ h2 {
 .main_paragraphs {
     padding: 2vw;
     width: 70%;
-}
-
-.ai_inclusivity {
-    gap: 4vw;
-    padding: 6vw;
-    display: flex;
-}
-
-.women_education_barriers {
-    gap: 4vw;
-    padding: 6vw;
-    display: flex;
-}
-
-.women_industry_barriers {
-    gap: 4vw;
-    padding: 6vw;
-    display: flex;
-}
-
-.women_strategies {
-    gap: 4vw;
-    padding: 6vw;
-    display: flex;
-}
-
-.careers_in_it {
-    gap: 4vw;
-    padding: 6vw;
-    display: flex;
-}
-
-.kaitiakitanga {
-    gap: 4vw;
-    padding: 6vw;
-    display: flex;
 }
 
 p.container {
