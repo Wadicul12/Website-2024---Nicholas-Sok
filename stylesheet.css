@@ -59,40 +59,64 @@ footer {
 
 
 .introduction_to_diversity {
+    padding: 2vw;
     display: flex;
 }
 
 .diversity_advantages {
+    padding: 2vw;
     display: flex;
 }
 
 h2 {
+    font-size: 2vw;
     padding: 2vw;
-    border-radius: 10px;
-    border-color: black;
-    border-style: groove;
-    border-width: thin;
-    width: min-content;
     color: black;
 }   
 
 .main_paragraphs {
     padding: 2vw;
+    width: 70%;
+}
+
+.ai_inclusivity {
+    padding: 2vw;
+}
+
+.women_education_barriers {
+    padding: 2vw;
+}
+
+.women_industry_barriers {
+    padding: 2vw;
+}
+
+.women_strategies {
+    padding: 2vw;
+}
+
+.careers_in_it {
+    padding: 2vw;
+}
+
+.kaitiakitanga {
+    padding: 2vw;
 }
 
 p.container {
-    column-gap: 20px;
+    column-gap: 20px;    
 }
 
-.paragraphs {
-    padding: 1vw;
-    border-radius: 10px;
-    border-color: black;
-    border-style: groove;
-    border-width: thin;
+p {
+    font-size: 1vw;
+    width: 40vw;
 }
 
 li.hvr-sink {
     display: block;
+}
+
+.ai_inclusivity {
+    display: flex;
 }
 
