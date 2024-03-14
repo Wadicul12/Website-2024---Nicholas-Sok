@@ -56,22 +56,15 @@ footer {
     color: white;
 }
 
-
-.introduction_to_diversity {
-    gap: 4vw;
-    padding: 6vw;
-    display: flex;
-}
-
 .image_and_paragraph_gap{
-    gap: 4vw;
-    padding: 6vw;
+    gap: 2vw;
+    padding: 4vw;
     display: flex;
 }
 
 h2 {
     font-size: 2vw;
-    padding: 6vw;
+    padding: 4vw;
     color: black;
 }   
 
