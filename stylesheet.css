@@ -51,31 +51,15 @@ footer {
     padding: 1vw;
     background-color: black;
     width: 100%;
-    margin-top: -2vw;
     height: 12vw;
     color: white;
-}
-
-.image_and_paragraph_gap{
-    gap: 2vw;
-    padding: 4vw;
-    display: flex;
 }
 
 h2 {
     font-weight: bolder;
     font-size: 2vw;
-    padding: 4vw;
     color: black;
 }   
-
-.main_paragraphs {
-    padding: 2vw;
-}
-
-p.container {
-    gap: 10px 30px;
-}
 
 p {
     font-size: 1vw;
@@ -83,9 +67,5 @@ p {
 
 li.hvr-sink {
     display: block;
-}
-
-.ai_inclusivity {
-    display: flex;
 }
 
