@@ -34,5 +34,7 @@ h2 {
 @media (width < 576px) {
     .main_title {
         margin-top: 10vw;
+        height: 30vw;
     }
 }
+
