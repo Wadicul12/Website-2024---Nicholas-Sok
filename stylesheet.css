@@ -8,8 +8,7 @@
     height: 20vw;
     width: 100%;
     font-size: 4vw;
-    background: hsla(272, 78%, 16%, 1);
-    background: linear-gradient(90deg, hsla(272, 78%, 16%, 1) 0%, hsla(17, 60%, 52%, 1) 100%);
+    background: linear-gradient(90deg, hsla(159, 82%, 55%, 1) 0%, hsla(206, 98%, 48%, 1) 100%);
 }
 
 body {
@@ -19,7 +18,7 @@ body {
 }
 
 .main_text {
-    background-color: rgb(18, 70, 129);
+    background-color: rgb(27, 136, 167);
 }
 
 footer {
@@ -27,7 +26,13 @@ footer {
     background-color: rgb(57, 121, 167);
     width: 100%;
     height: auto;
-    color: white;
+}
+
+.paragraphs {
+    border: rgb(18, 70, 129);
+    border-style: solid;
+    border-radius: 2vw;
+    background-color: rgb(18, 70, 129);
 }
 
 h2 {
@@ -39,10 +44,15 @@ h2 {
     background-color: rgb(57, 121, 167);
 }
 
+.navbar-text {
+    color: whites;
+}
+
 @media (width < 576px) {
     .main_title {
-        margin-top: 15vw;
         height: 30vw;
     }
 }
+
+
 
