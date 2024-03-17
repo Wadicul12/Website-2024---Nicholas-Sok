@@ -1,3 +1,14 @@
+/* text body css*/
+body {
+    font-family: "Spline Sans", sans-serif;
+    margin: 0;
+    background-attachment: fixed;
+}
+/* navbar background color css*/
+.navbar {
+    background-color: rgb(57, 121, 167);
+    width: auto;
+}
 /* main title css*/
 .main_title {
     text-shadow: 2px 2px black;
@@ -7,48 +18,46 @@
     text-align: center;
     color: white;
     height: 20vw;
-    width: 100%;
     font-size: 4vw;
     background: linear-gradient(90deg, hsla(159, 82%, 55%, 1) 0%, hsla(206, 98%, 48%, 1) 100%);
 }
-/* text body css*/
-body {
-    font-family: "Spline Sans", sans-serif;
-    margin: 0;
-    background-attachment: fixed;
-}
 /* main text css*/
 .main_text {
-    background-color: rgb(27, 136, 167);
-}
-/* footer */
-footer {
-    padding: 1vw;
-    background-color: rgb(57, 121, 167);
-    width: 100%;
-    height: auto;
-}
-/* paragraphs background css*/
-.paragraphs {
-    border: rgb(18, 70, 129);
-    border-style: solid;
-    border-radius: 2vw;
-    background-color: rgb(18, 70, 129);
+    background-color: rgb(63, 131, 209);
 }
 /* heading 2 css*/
 h2 {
     font-weight: bolder;
     color: black;
 }   
-/* navbar background color css*/
-.navbar {
-    background-color: rgb(57, 121, 167);
+/* paragraphs background css*/
+.paragraphs {
+    border: rgb(18, 70, 129);
+    border-style: solid;
+    border-radius: 2vw;
+    background-color: rgb(58, 150, 175);
 }
-/* mobile main title css*/
-@media (width < 576px) {
+/* mobile main title and paragraphs css*/
+@media (width < 990px) {
+
     .main_title {
         height: 30vw;
     }
+
+    .paragraphs {
+        margin: 0;
+        border: rgb(18, 70, 129);
+        border-style: solid;
+        border-radius: 1vw;
+        background-color: rgb(58, 150, 175);
+    }
+
+}
+/* footer */
+footer {
+    padding: 1vw;
+    background-color: rgb(57, 121, 167);
+    height: auto;
 }
 
 
